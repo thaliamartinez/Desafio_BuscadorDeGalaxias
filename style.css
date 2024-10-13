@@ -1,0 +1,31 @@
+main {
+    min-height: calc(100vh - 160px);
+  }
+
+
+  .card {
+    height: 300px; /* Altura de tarjeta*/ 
+}
+
+.card-body {
+    overflow-y: auto; /* scroll vertical */
+}
+
+.card img{
+   height: 160px; 
+   object-fit: cover; /* Asegura que la imagen mantenga su aspecto sin deformarse */
+   width: 100%; 
+}
+
+.card-body h3{
+  font-size: 1.2rem;
+}
+
+.card-body p{
+  font-size: 0.9rem;
+}
+
+.card-body small{
+  font-size: 0.7rem;
+  color: rgb(87, 86, 86);
+}
